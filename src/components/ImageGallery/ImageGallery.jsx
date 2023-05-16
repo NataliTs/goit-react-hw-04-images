@@ -21,6 +21,24 @@ export const ImageGallery = ({ images, onImageClick }) => {
   );
 };
 
+// export const ImageGallery = ({ images, onImageClick }) => {
+//   return (
+//     <Gallery>
+//       {images.map(({ id, webformatURL, largeImageURL, tags }) => {
+//         return (
+//           <ImageGalleryItem
+//             key={id}
+//             webformatURL={webformatURL}
+//             largeImageURL={largeImageURL}
+//             tags={tags}
+//             onImageClick={onImageClick}
+//           />
+//         );
+//       })}
+//     </Gallery>
+//   );
+// };
+
 ImageGallery.propTypes = {
   images: PropTypes.arrayOf(
     PropTypes.shape({
