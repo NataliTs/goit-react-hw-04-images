@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const MoreBtn = styled.button`
   padding: 8px 1px;
   margin: 0 auto 16px auto;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: ${p => p.theme.colors.backgroundColor};
   text-align: center;
   display: block;
